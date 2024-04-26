@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexxy Zen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <div class="container-animate">
+        <img src="./resources/logoE.png" alt="">
+    </div>
+
+    <main class="appear">
+        <header>
+            <nav>
+                <img src="./resources/logoE.png" id="logo" height="40px" alt="">
+                <ul>
+                    <li><a href="#sec-1">Home</a></li>
+                    <li><a href="#sec-2">Projects</a></li>
+                    <li><a href="#sec-3">Shop</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="sec-1">
+            <div class="container">
+                <div class="left-box">
+                    <h1>Hey I'm FlexxY Zen...</h1>
+                    I edit videos by profession. Contact me to get your videos Edited!
+                    <span class="social-links">
+                        <a href="https://www.instagram.com/flexxy.zen/"><i class='bx bxl-instagram'></i><h3 class="visibleOnMobile">flexxy.zen</h3></a>
+                        <a href="https://www.youtube.com/@flexxyzen"><i class='bx bxl-youtube' ></i><h3 class="visibleOnMobile">flexxyYt</h3></a>
+                        <a href="mailto: flexxyzenn@email.com"><i class='bx bxs-envelope' ></i><h3 class="visibleOnMobile">flexxyzenn@gmail.com</h3></a>
+                    </span>
+                </div>
+                <div class="right-box">
+                    <video autoplay muted loop  id="intro">
+                        <source src='./resources/intro.mp4' type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    
+        <section id="sec-2">
+            <div class="slider">
+                <div class="card">
+                    <video width="400" controls>
+                    <source src="./resources/vid1.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" controls poster="./resources/vid2-poster.png">
+                    <source src="./resources/vid2.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" height="350" controls poster="./resources/vid3-poster.png">
+                    <source src="./resources/vid3.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" height="350" controls poster="./resources/vid4-poster.png"> 
+                    <source src="./resources/vid4.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    
+        <section id="sec-2">
+            <div class="slider-left">
+                <div class="card">
+                    <video width="400" controls poster="./resources/vid8-poster.png">
+                    <source src="./resources/vid8.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" controls poster="./resources/vid7-poster.png">
+                    <source src="./resources/vid7.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" controls>
+                    <source src="./resources/vid6.mp4">
+                    </video>
+                </div>
+                <div class="card">
+                    <video width="400" controls poster="./resources/vid5-poster.png">
+                    <source src="./resources/vid5.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec-3">
+            <div class="container-3">
+                <h1>ZEN STORE</h1>
+                <h3>Opening soon....</h3>
+            </div>
+        </section>
+        
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
